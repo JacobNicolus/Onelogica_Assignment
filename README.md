@@ -49,3 +49,18 @@ Outperformance (float): The outperformance of the trading strategy compared to a
 Process
 
 
+Next is to evaluate strategy...
+
+def evaluate_strategy():
+
+
+This Python function evaluates a trading strategy using three key performance metrics:
+
+1. Sharpe Ratio: Measures risk-adjusted returns.
+
+2. Sortino Ratio: Focuses on downside risk.
+
+3. Calmar Ratio: Evaluates returns relative to maximum drawdown.
+
+The function calculates these metrics and returns them as a dictionary. They provide insights into the strategy's performance and risk profile.
+
