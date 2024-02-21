@@ -30,10 +30,15 @@ The test_results method is responsible for backtesting the SMA-based trading str
 
 
 1)Copy the preprocessed data (self.data2) and drop any missing values.
+
 2)Compute the trading positions based on the crossover of short-term and long-term SMAs(so if SMA_S>SMA_L then position is 1 else -1)
+
 3)Calculate the strategy returns and cumulative returns.
+
 4)Compute the performance and outperformance.
+
 5)Store the results in self.results.
+
 6)If also it can Compute the total returns and standard deviation of the strategy.
 
 
