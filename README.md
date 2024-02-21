@@ -85,3 +85,26 @@ This methodis designed to plot the backtesting results of a trading strategy.
   - The plot is displayed with a size of 12x8 inches.
 
 This method is intended to provide a visual representation of the backtesting results, comparing the returns of the strategy against a buy-and-hold approach.
+
+
+In the main.py, I have done and evaluated the library for RELIANCE INDUSTRIES you can try for any companies you wish to check...
+
+
+And finally you should be having the doubt of SMA, SMA_S and SMA_L 
+
+###### SMA(SIMPLE MOVING AVERAGE)
+
+It's a technical analysis indicator commonly used in finance and trading to analyze and smooth out price data over a specific time period. The Simple Moving Average is calculated by adding up the closing prices of a security or asset over a certain number of periods (e.g., days) and then dividing that sum by the number of periods.
+
+For example, a 50-day SMA is calculated by summing up the closing prices of the last 50 days and then dividing that sum by 50. The result is a single data point on the chart, representing the average price over the last 50 days. As new data becomes available, the oldest data point is dropped from the calculation, and the newest data point is included, thus creating a moving average line that moves with the price action.
+
+SMA is used for various purposes in trading and technical analysis, including identifying trends, determining support and resistance levels, and generating trading signals. It helps traders smooth out price fluctuations and identify the underlying trend in the price movement of an asset. Different SMA periods (e.g., 50-day, 100-day, 200-day) are commonly used depending on the trader's strategy and time horizon.
+
+SMA_S is simple moving average short like for  short period (In code we took 50)
+
+SMA_L is simple moving average long like for long period(In code we took 200)
+
+
+### Done 
+
+##### Thanks! for going through this README file
