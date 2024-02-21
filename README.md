@@ -64,3 +64,24 @@ This Python function evaluates a trading strategy using three key performance me
 
 The function calculates these metrics and returns them as a dictionary. They provide insights into the strategy's performance and risk profile.
 
+
+The Final is the analysis part....
+
+def analysis():
+
+This methodis designed to plot the backtesting results of a trading strategy.
+
+
+>>> If `self.results` is `None`, indicating that the backtesting hasn't been performed yet, it prints a message prompting the user to run the test.
+
+>>> If `self.results` contains backtesting results:
+  
+  - It constructs a title for the plot based on the symbol (`self.symbol`), short moving average (`self.SMA_S`), and long moving average (`self.SMA_L`) parameters.
+  
+  - It plots two columns of `self.results` DataFrame: `"returnsbuy&hold"` and `"returnsstrategy"`.
+  
+  - The plot title includes information about the symbol and the moving average parameters.
+  
+  - The plot is displayed with a size of 12x8 inches.
+
+This method is intended to provide a visual representation of the backtesting results, comparing the returns of the strategy against a buy-and-hold approach.
